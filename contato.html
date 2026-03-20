@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div id="titulo_principal">
+        <h1>O senhor dos anéis</h1>
+        <h2>Uma das trilogias mais famosas do cinema</h2>
+    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Sinopse.html">Sinopse</a>
+            <a href="imagem do filme.html">Imagem do filme</a>
+            <a href="personagens.html">Personagens principais</A>
+            <a href="infomações.html">Informações</a>
+            <a href="ordem.html">Ordem dos Filmes</a>
+            <a href="Curiosidades.html">curiosidades</a> 
+            <a href="Impacto.html">Impacto Cultural</a>
+            <a href="contato.html">Contato</a>   
+        </nav>
+        <div>
+            <h2 class="titulo_secundario"> Entre em contato</h2>
+            <form action="processa.php" method="POST" autocomplete="off">
+                <label for="nomepessoal">Nome:</label>
+                <input type="text" name="nomepessoal"
+                id="nomepessoal" placeholder="Informe seu nome" minlength="3" maxlength="15"
+                required><br><br>
+
+                <label for="ano">Ano de Nacimento:</label>
+                <input type="number" name="ano" id="ano" max="2026"
+                min="1900" placeholder="Infome seu Ano de Nacimento"><br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Infome seu telefone"><br><br>
+                 
+                <label for="github">Github:</label>
+                <input type="url" name="github" id="github" placeholder="Infome seu github"><br><br>
+
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" placeholder="Infome seu email">
+                <br><br>
+
+                <label for="senha">Informe sua Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Infome sua Senha"><br><br>
+
+                <label for="arquivo">Anexe um Arquivo</label>
+                <input type="file" name="arquivo" id="arquivo"><br><br>
+
+                <label for="cor">Escolha uma cor</label>
+                <input type="cor" name="cor" id="cor"><br><br>
+
+                <fieldset>
+                    <legend>Campos de tempo</legend>
+                <label for="data">Informe a data</label>
+                <input type="date" name="data" id="data"><br><br>
+
+                <label for="mes">Informe o mês</label>
+                <input type="month" name="mes" id="mes"><br><br>
+
+                <label for="semana">Informe a semana</label>
+                <input type="week" name="semana" id="semana"><br><br>
+                
+                <label for="hora">Informe a hora</label>
+                <input type="time" name="hora" id="hora"><br><br>
+
+                <label for="datahora">Data e hora atual</label>
+                <input type="datetime-local" name="datahora" id="datahora"><br><br>
+                </fieldset>
+
+                <label for="Pesquisa">Pesquisa</label>
+                <input type="search" name="Pesquisa" id="Pesquisa"><br><br>
+                 
+                <label for="descricao">Informe aqui o que vc gosta no filme</label><br><br>
+                <textarea cols="30" rows="10" name="descricao" id="descricao"></textarea><br><br>
+
+                <fieldset>
+                    <legend>Qual o seu filme favotito ?</legend>
+                    <label for="filme1"><input checked type="radio" name="filme" id="filme1" value="Filme 1">Filme 1</label>
+
+                    <label for="filme2"><input type="radio" name="filme" id="filme2" value="Filme 2">Filme 2</label>
+
+                    <label for="filme3"><input type="radio" name="filme" id="filme3" value="Filme 3">Filme 3</label>
+
+                </fieldset>
+
+                <select>
+                    <option selected value="Filme 1">Filme 1</option>
+                    <option value="Filme 2">Filme 2</option>
+                    <option value="Filme 3">Filme 3</option>
+                </select>
+
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+                
+
+            </form>
+        </div>
+</body>
+</html>
