@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+    <title>Contato - Terra Média</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="titulo_principal">
+    <h1>O senhor dos anéis</h1>
+    <h2>Uma das trilogias mais famosas do cinema</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sinopse.html">Sinopse</a>
+        <a href="imagemfilme.html">Imagem do filme</a>
+        <a href="personagens.html">Personagens principais</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="ordem.html">Ordem dos filmes</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="impacto.html">Impacto Cultural</a>
+        <a href="contato.html">Contato</a>
+        <a href="contato com a terra média.html">Contato com a Terra Media</a> 
+        <a href="contato 2.0.html">Contato 2.0</a>
+    </nav>
+</div>
+
+<h1 class="titulo_secundario">Envie sua mensagem à Terra Média</h1>
+<p>Use o formulário abaixo para enviar sua mensagem ao Conselho de Elrond.</p>
+
+<form action="" method="post">
+  <label for="namex">Seu nome (como é conhecido na Terra Média):</label>
+  <input type="text" value="Texto" minlength="3" maxlength="10" placeholder="Ex: Aragorn, filho de Arathorn" title="Informe o nome" id="namex"><br><br>
+
+  <label>Seu e-mail (para resposta dos magos):</label>
+  <input type="email" placeholder="seuemail@valfenda.com"><br><br>
+
+  <label>Ano de nascimento (para definir sua era):</label>
+  <input type="number"><br><br>
+
+  <label>Telefone (ou forma de contato do Condado):</label>
+  <input type="tel"><br><br>
+
+  <label>Seu reino ou site (caso possua):</label>
+  <input type="url" placeholder="https://meureino.com"><br><br>
+
+  <label>Senha secreta (para acessar os portões de Moria):</label>
+  <input type="password"><br><br>
+
+  <label>Envie um artefato ou mensagem (arquivo):</label>
+  <input type="file"><br><br>
+
+  <label>Escolha a cor do seu estandarte:</label>
+  <input type="color"><br><br>
+
+  <label>Data de nascimento (na Terra Média):</label>
+  <input type="date"><br><br>
+
+  <fieldset>
+    <legend>Campos relacionados a tempo</legend>
+  <label>Data e hora da sua jornada:</label>
+  <input type="datetime-local"><br><br>
+
+  <label>Hora preferida para encontros do conselho:</label>
+  <input type="time"><br><br>
+
+  <label>Mês de sua jornada:</label>
+  <input type="month"><br><br>
+
+  <label>Semana da missão:</label>
+  <input type="week"><br><br>
+  </fieldset>
+
+  <label>Buscar personagem ou local:</label>
+  <input type="search" placeholder="Ex: Frodo, Mordor, Gandalf"><br>
+
+  <label for="desejoterramedia">Desejo terra media</label><br>
+  <textarea name="desejoterramedia" id="desejoterramedia" minlength="10" maxlength="1000" rows="5" cols="70"></textarea><br>
+
+  <label for="personagens">Qual seu personagem principal?</label>
+  <select required id="personagens">
+    <option value="Frodo Bolseiro">Frodo Bolseiro</option>
+    <option value="Gandalf">Gandalf</option>
+    <option value="Aragon">Aragon</option>
+    <option value="Legolas">Legolas</option>
+    <option value="Gollum">Gollum</option>
+  </select><br><br>
+
+  <input type="radio" name="filmepreferido" value="Filme 1" id="filme1"><label for="filme1">Filme 1</label>
+  <input type="radio" name="filmepreferido" value="Filme 2" id="filme2"><label for="filme2">Filme 2</label>
+  <input type="radio" name="filmepreferido" value="Filme 3" id="filme3"><label for="filme3">Filme 3</label>
+
+  <br><br>
+
+  <button type="reset">Limpar pergaminho</button>
+  <button type="submit">Enviar mensagem</button>
+</form>
+
+</body>
+</html>
